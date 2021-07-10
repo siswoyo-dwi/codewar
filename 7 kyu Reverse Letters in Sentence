@@ -11,14 +11,14 @@ Examples
 " A fun little challenge! " => " A nuf elttil !egnellahc "
 
 
-//describe("Tests", () => {
-//  it("test", () => {
-//Test.assertEquals(reverser("Hi mom"), 'iH mom');
-//Test.assertEquals(reverser("friendzone"), 'enozdneirf');
-//Test.assertEquals(reverser(" "), ' ');
-//
-// });
-//});
+describe("Tests", () => {
+  it("test", () => {
+Test.assertEquals(reverser("Hi mom"), 'iH mom');
+Test.assertEquals(reverser("friendzone"), 'enozdneirf');
+Test.assertEquals(reverser(" "), ' ');
+
+  });
+});
 
 
 function reverser(sentence) {
